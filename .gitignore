@@ -3,6 +3,7 @@ nohup.out
 
 pkg/**/debug.test
 
+.DS_Store
 .DS_Store/**
 
 HELP.md
