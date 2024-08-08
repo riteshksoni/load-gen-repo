@@ -5,7 +5,7 @@ To use the Scale Test Load Gen App, users should maintain the same folder names 
 
 #### Folder Structure and File Content Type
 ```
-load_workflow/            # Private github Repo Name
+load-gen-repo/            # Private github Repo Name
 │
 ├── data-files/           # data-files, files used for API calls to Salesforce 
 │   ├── accounts.csv       # in JMeter scripts.
