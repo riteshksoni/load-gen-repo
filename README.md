@@ -1,9 +1,7 @@
 # load-gen-repo
-To use the Scale Test Load Gen App, users should maintain the same folder names but can choose any name and number of files within those folders. This structure will help keep the customer's repository organised and make it easier to understand and navigate.
+To use the Scale Test Load Gen App, users should maintain the same folder names but can choose any name and number of files within those folders. This structure will help keep the user's repository organised and make it easier to understand and navigate.
 
-Users should keep this repo private.
 
-Please avoid using any special characters for file names.
 
 #### Folder Structure and File Content Type
 ```
@@ -32,15 +30,19 @@ load_workflow/            # Private github Repo Name
 ```
 
 
+
 ---------------------------------------------------
 |Folder Name	| File Content Type
 ----------------|---------------------------------
-| *user-files*	| To store user credential files i.e. username and password which is used in jmx file.
-| *test-plans*	| To store JMeter Script (.jmx) files.
-| *data-files*	 | To be referred in the jmx files for various api calls to salesforce, sample repo has account.csv, opportunity.csv, contacts.csv but user can define file formats which they intend to use in their JMeter script files.
-| *workload-metadata*	|To store metadata files which describes the overall orchestration by using the one script file for a task, all tasks would intiate workload execution in parallel.
+| **user-files**	| To store user credential files i.e. username and password which is used in jmx file.
+| **test-plans**	| To store JMeter Script (.jmx) files.
+| **data-files**	 | To be referred in the jmx files for various api calls to salesforce, sample repo has account.csv, opportunity.csv, contacts.csv but user can define file formats which they intend to use in their JMeter script files.
+| **workload-metadata**	|To store metadata files which describes the overall orchestration by using the one script file for a task, all tasks would intiate workload execution in parallel.
 ---------------------------------------------------
 
 
-Note: For a given workload, all the task names must be unique.
-
+### Note: 
+This is only a sample repo.
+Users should keep this repo **private**.
+For a given workload, all the task names must be unique.
+Please avoid using any special characters for file names.
