@@ -42,7 +42,7 @@ load_workflow/            # Private github Repo Name
 
 
 ### Note: 
-This is only a sample repo.
-Users should keep this repo **private**.
-For a given workload, all the task names must be unique.
+This is only a sample repo.\
+Users should keep this repo **private**.\
+For a given workload, all the task names must be unique.\
 Please avoid using any special characters for file names.
