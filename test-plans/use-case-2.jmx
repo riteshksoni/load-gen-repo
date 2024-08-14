@@ -22,9 +22,9 @@
       <hashTree>
         <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
           <collectionProp name="Arguments.arguments">
-            <elementProp name="USERNAME_FILE" elementType="Argument">
-              <stringProp name="Argument.name">USERNAME_FILE</stringProp>
-              <stringProp name="Argument.value">${__P(username_file,../user-files/users2.csv)}</stringProp>
+            <elementProp name="USERS_FILE" elementType="Argument">
+              <stringProp name="Argument.name">USERS_FILE</stringProp>
+              <stringProp name="Argument.value">${__P(users_file,../user-files/users2.csv)}</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="ACCOUNT_FILE" elementType="Argument">
@@ -36,7 +36,7 @@
         </Arguments>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
-          <stringProp name="filename">${USERNAME_FILE}</stringProp>
+          <stringProp name="filename">${USERS_FILE}</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames"></stringProp>
           <stringProp name="delimiter">,</stringProp>

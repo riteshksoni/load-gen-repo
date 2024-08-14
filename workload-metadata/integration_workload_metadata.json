@@ -4,7 +4,7 @@
     {
     "task_name": "mobile-traffic",
     "script_name": "use-case-1.jmx",
-    "user_files": "users1.csv",
+    "users_file": "users1.csv",
     "data_files": {
         "account_file" : "accounts.csv",
         "opportunity_file" : "opportunities.csv",
@@ -14,7 +14,7 @@
     {
     "task_name": "online-traffic",
     "script_name": "use-case-2.jmx",
-    "user_files": "users2.csv",
+    "users_file": "users2.csv",
     "data_files": {
         "account_file" : "accounts.csv" 
       }
@@ -22,7 +22,7 @@
     {
     "task_name": "metro-city-traffic",
     "script_name": "use-case-3.jmx",
-    "user_files": "users3.csv",
+    "users_file": "users3.csv",
     "data_files": {
         "opportunity_file" : "opportunities.csv"  
       }
@@ -30,7 +30,7 @@
     {
       "task_name": "integration-traffic",
       "script_name": "use-case-4.jmx",
-      "user_files": "users4.csv"
+      "users_file": "users4.csv"
     }
   ]
 }
