@@ -5,7 +5,9 @@
         {
             "task_name": "Emandate-Pan-PROXY",
             "script_name": "Emandate-Pan-PROXY-Script.jmx",
-            "user_files": "data.csv"
+            "users_file": "data.csv",
+            "data_files":
+            {}
         }
     ]
 }
