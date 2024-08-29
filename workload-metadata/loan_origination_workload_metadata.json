@@ -4,7 +4,7 @@
     [
         {
             "task_name": "Emandate-Pan-PROXY",
-            "script_name": "Emandate-Pan-PROXY-Script.jmx",
+            "script_name": "loan-origination-use-case.jmx",
             "users_file": "data.csv",
             "data_files":
             {}
