@@ -3,8 +3,15 @@
     "tasks":
     [
         {
-            "task_name": "Emandate-Pan-PROXY",
-            "script_name": "loan-origination-use-case.jmx",
+            "task_name": "idle-login",
+            "script_name": "idle-login-loan-origination-use-case.jmx",
+            "users_file": "data.csv",
+            "data_files":
+            {}
+        },
+        {
+            "task_name": "pan-mandate",
+            "script_name": "pan-mandate-loan-origination-use-case.jmx",
             "users_file": "data.csv",
             "data_files":
             {}
